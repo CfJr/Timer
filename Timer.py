@@ -5,9 +5,6 @@ import time
 total = 0
 exit = "play"
 
-def hi():
-	print("Hi")
-
 def store():
     if(entry_enter.get() != ""):
         button_store.configure(state=DISABLED)
